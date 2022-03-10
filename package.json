@@ -1,0 +1,17 @@
+{
+  "name": "makesampledata",
+  "version": "1.0.0",
+  "description": "リアルな施設データの開始時間と終了時間を考慮した予約サンプルデータ作成プログラム",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc --build",
+    "runmain": "node ./ts/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git@github.com:yamaguchi1375/makesampledata.git",
+  "author": "slk.ty.yamaguchi <slk.ty.yamaguchi@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  }
+}
